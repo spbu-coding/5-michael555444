@@ -4,7 +4,7 @@
 
 void input() {
     char buff[20];
-    ptintf("Enter text:\n"); out;
+    printf("Enter text:\n"); out;
     scanf("%s", buff);
     printf("%p", &other); out;
     printf("You enter: %s\n", buff); out;
