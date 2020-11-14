@@ -10,11 +10,11 @@ void input() {
     printf("You enter: %s\n", buff); out;
 }
 
-void other(){
+void other() {
     printf("It's other function.\n"); out;
 }
 
-int main(){
+int main() {
     input();
     return 0;
 }
