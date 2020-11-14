@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void other() {
-    printf("It's other function.\n"); fflush(stdout);
-    printf(" Function had been returned to function <<other>>\n"); fflush(stdout);
+    printf("\nIt's other function."); fflush(stdout);
+    printf("\nFunction had been returned to function <<other>>\n"); fflush(stdout);
 }
 
 void input() {
@@ -11,7 +11,6 @@ void input() {
     scanf("%s", buff);
     printf("%p", &other); fflush(stdout);
     printf("\nYou enter: %s", buff); fflush(stdout);
-    printf("\nFunction stayed in function <<input>>"); fflush(stdout);
 }
 
 int main() {
