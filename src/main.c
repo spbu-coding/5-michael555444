@@ -10,12 +10,11 @@ void input() {
     printf("Enter text:\n"); fflush(stdout);
     scanf("%s", buff);
     printf("%p", &other); fflush(stdout);
-    printf("You enter: %s\n", buff); fflush(stdout);
-    printf(" Function stayed in function <<input>>\n"); fflush(stdout);
+    printf("\nYou enter: %s", buff); fflush(stdout);
+    printf("\nFunction stayed in function <<input>>"); fflush(stdout);
 }
 
 int main() {
     input();
-    printf(" Function had been returned to function <<main>>\n"); fflush(stdout);
     return 0;
 }
