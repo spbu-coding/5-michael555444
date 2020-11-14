@@ -1,17 +1,15 @@
 #include <stdio.h>
 
-#define fflush(stdout) out
-
 void input() {
     char buff[20];
-    printf("Enter text:\n"); out;
+    printf("Enter text:\n"); fflush(stdout);
     scanf("%s", buff);
-    printf("%p", &other); out;
-    printf("You enter: %s\n", buff); out;
+    printf("%p", &other); fflush(stdout);
+    printf("You enter: %s\n", buff); fflush(stdout);
 }
 
 void other() {
-    printf("It's other function.\n"); out;
+    printf("It's other function.\n"); fflush(stdout);
 }
 
 int main() {
