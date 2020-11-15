@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 void other() {
-    printf("\nIt's other function."); fflush(stdout);
     printf("\nFunction had been returned to function <<other>>\n"); fflush(stdout);
     return;
 }
