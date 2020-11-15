@@ -18,6 +18,6 @@ int main() {
     printf("%p\n", &main);
     printf("%p\n", &other);
     input();
-    printf("Function had been outputed to function <<main>>\n");
+    printf("\nFunction had been outputed to function <<main>>\n");
     return 0;
 }
